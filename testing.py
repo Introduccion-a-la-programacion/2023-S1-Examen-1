@@ -17,13 +17,13 @@ def test_adyacentesImpares_3():
     
 #########################################################
 
-def test_numeroAbundate_1():
+def test_numeroAbundante_1():
     assert Examen1.numeroAbundante(12) == True
     
-def test_numeroAbundate_2():
+def test_numeroAbundante_2():
     assert Examen1.numeroAbundante(8) == False
     
-def test_numeroAbundate_3():
+def test_numeroAbundante_3():
     assert isinstance(str(Examen1.numeroAbundante(-8)), str) == isinstance("Error en la entrada, debe ser número positivo", str)
 #########################################################
 
