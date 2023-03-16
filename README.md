@@ -21,11 +21,11 @@ Escriba un programa con sintaxis Python cuya función principal se llame **numer
 
 Ejemplos del comportamiento de la función:
 ```python
->>>numeroAbundate(12)
+>>>numeroAbundante(12)
 True
->>> numeroAbundate (8)
+>>> numeroAbundante (8)
 False
->>> numeroAbundate (-8)
+>>> numeroAbundante (-8)
 "Error en la entrada, debe ser número positivo"
 ```
 ## Suma Adyacentes Impar (10 puntos) 
