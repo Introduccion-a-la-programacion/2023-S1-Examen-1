@@ -3,6 +3,30 @@ import pytest;
 
 #########################################################
 
+def test_adyacentesImpares_1():
+    assert Examen1.adyacentesImpares(9252783) == True
+    
+def test_adyacentesImpares_2():
+    assert Examen1.adyacentesImpares(53730) == False
+    
+def test_adyacentesImpares_3():
+    assert Examen1.adyacentesImpares(5836) == True
+    
+def test_adyacentesImpares_3():
+    assert isinstance(str(Examen1.adyacentesImpares(-9)), str) == isinstance("Número no se puede procesar", str)
+    
+#########################################################
+
+def test_numeroAbundate_1():
+    assert Examen1.numeroAbundate(12) == True
+    
+def test_numeroAbundate_2():
+    assert Examen1.numeroAbundate(8) == False
+    
+def test_numeroAbundate_3():
+    assert isinstance(str(Examen1.numeroAbundate(-8)), str) == isinstance("Error en la entrada, debe ser número positivo", str)
+#########################################################
+
 def test_numeroHermano_1():
     assert Examen1.numeroHermano(20) == True
     
