@@ -65,7 +65,7 @@ Ejemplos del comportamiento de la función:
 ```python
 >>> numeroPolimax(4312) #(43 y 12)
 True 
->>> numeroPolimax(32707) #(327 y 707)
+>>> numeroPolimax(327207) #(327 y 707)
 True
 >>> numeroPolimax(-6887) #(68 y 87)
 False
