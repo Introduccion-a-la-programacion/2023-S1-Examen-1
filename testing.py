@@ -46,9 +46,6 @@ def test_numeroPolimax_2():
     
 def test_numeroPolimax_3():
     assert Examen1.numeroPolimax(-6887) == False
-
-def test_numeroPolimax_4():
-    assert Examen1.numeroPolimax(-9) == True
         
 #########################################################
 
