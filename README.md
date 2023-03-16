@@ -12,7 +12,38 @@
   - Desarrollo de las validaciones de las restricciones 2 puntos
   - Algoritmo 6 puntos (6 Excelente, 5 a 1 Termiando con errores de sintaxis o incompleto , 0 No lo hizo)
 
-## 1.	Número Hermano (10 puntos) 
+## Número abundante (10 puntos) 
+
+Escriba un programa con sintaxis Python cuya función principal se llame **numeroAbundante(num)**, que reciba como entrada un **número entero positivo** denominado num y que retorne si cumple (True) o no los requisitos (False) de número abundante. Un número abundante es un número natural y que la suma de sus divisores es mayor que su duplo, es decir:
+- 12 sus divisores son (1,2,3,4,6 y 12)
+- La suma de ellos son 1+2+3+4+6+12 = 28
+- Entonces el 12 es un número abundante porque la suma de sus divisores 28 es mayor que el duplo de 12, ósea 24. (28 > 12 x 2)
+
+Ejemplos del comportamiento de la función:
+```python
+>>>numeroAbundate(12)
+True
+>>> numeroAbundate (8)
+False
+>>> numeroAbundate (-8)
+"Error en la entrada, debe ser número positivo"
+```
+## Suma Adyacentes Impar (10 puntos) 
+
+Escriba un programa con sintaxis Python cuya función principal se llame **adyacentesImpares(num)**, recibe un **número entero positivo** y debe retornar True en caso de que todas las sumas de dos dígitos adyacentes sean impares, retornar False en caso de que alguna suma de adyacentes no sea impar. Ejemplos del comportamiento de la función:
+
+```python
+>>> adyacentesImpares (9252783) 
+True 
+>>> adyacentesImpares (53730)
+False
+>>> adyacentesImpares (5836)
+True
+>>> adyacentesImpares (-9)
+"Número no se puede procesar"
+```
+
+## 	Número Hermano (10 puntos) 
 
 Escriba un programa con sintaxis Python cuya función principal se llame **numeroHermano(num)**, que reciba como entrada un **número entero positivo** denominado num y que retorne si cumple (True) o no los requisitos (False) de número hermano. Un número hermano es un número natural y que posee dos divisores primos (el 1 no es primo):
 
@@ -26,7 +57,7 @@ False
 >>> numeroHermano(-8)
 "Error en la entrada, debe ser número positivo"
 ```
-## 2.	Número Polimax (10 puntos) 
+## 	Número Polimax (10 puntos) 
 
 Escriba un programa con sintaxis Python cuya función principal se llame **numeroPolimax(num)**, recibe un número entero cualquiera e indique si el número es un Número Polimax. Un número es Polimax si al dividir en dos el número, sus dos partes tienen la misma cantidad de impares y pares. El parámetro “num” debe de tener un largo PAR.
 Ejemplos del comportamiento de la función:
